@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>x_58872_needit_needit_task</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>x_58872_needit.overdueNeedItTask</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Dear ${assigned_to.first_name},</span></strong></p>
+<p><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">An overdue NeedIt Task is assigned to you: <br /></span></strong></p>
+<p><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Number: ${number}<br /></span></strong></p>
+<p><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Short description: ${short_description}<br /></span></strong></p>
+<p><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Please complete this task as soon as possible.</span></strong></p>
+<p><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Click here to view the NeedIt Task record: ${URI_REF}</span></strong></p>
+<pre class="monospaceing ng-isolate-scope language- language-undefined" xml:space="preserve"><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;"><code class="ng-binding language-undefined">${mail_script:CountOverdueNeedItTasksAssignedTo}</code></span></strong></pre>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Overdue NeedIt Task</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>assigned_to</recipient_fields>
+        <recipient_groups/>
+        <recipient_users>agbykov@yahoo.com</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Overdue NeedIt Task: ${number}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-01 13:26:19</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>866d3816db833200890bd450cf96194d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Overdue NeedIt Task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_email_action_866d3816db833200890bd450cf96194d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-01 13:43:51</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
